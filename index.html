@@ -1,110 +1,12 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>애프터플레이 | 문화예술·음악 뉴스 매거진</title>
 <meta name="description" content="문화예술·음악 소식을 전하는 애프터플레이. 지나간 장면 뒤에 남은 감각을 기록합니다.">
 <link rel="canonical" href="https://afterplaykr-dot.github.io/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="애프터플레이">
-<meta property="og:title" content="애프터플레이 | 문화예술·음악 뉴스 매거진">
-<meta property="og:description" content="지나간 장면 뒤에 남은 감각을 기록합니다.">
-<meta property="og:url" content="https://afterplaykr-dot.github.io/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="애프터플레이"><meta property="og:title" content="애프터플레이 | 문화예술·음악 뉴스 매거진"><meta property="og:description" content="지나간 장면 뒤에 남은 감각을 기록합니다."><meta property="og:url" content="https://afterplaykr-dot.github.io/">
 <meta name="naver-site-verification" content="4e7e38bac987d06f8c406958d227d0aa381b4535" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
-<style>
-:root{--bg:#fff;--ink:#111;--mu:#777;--ln:#e8e8e8;--tile:#efefef;--tile2:#dcdcdc;--inv:#111;--invt:#fff;
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0e0e;--ink:#f2f2f2;--mu:#999;--ln:#262626;--tile:#1c1c1c;--tile2:#2a2a2a;--inv:#f2f2f2;--invt:#0e0e0e}}
-:root[data-theme="dark"]{--bg:#0e0e0e;--ink:#f2f2f2;--mu:#999;--ln:#262626;--tile:#1c1c1c;--tile2:#2a2a2a;--inv:#f2f2f2;--invt:#0e0e0e}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans KR",system-ui,sans-serif;line-height:1.55;-webkit-text-size-adjust:100%}
-a{color:inherit;text-decoration:none}
-.w{max-width:1040px;margin:0 auto;padding:0 16px}
-header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:10;border-bottom:1px solid var(--ln)}
-.bar{display:flex;align-items:center;justify-content:space-between;height:54px}
-.logo{display:flex;align-items:center;gap:8px;font-weight:900;font-size:19px;letter-spacing:-.02em}
-.logo i{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--inv);color:var(--invt);font-style:normal;font-size:11px;font-weight:700}
-.ig{font-size:13px;color:var(--mu)}
-nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
-nav::-webkit-scrollbar{display:none}
-nav button{flex:0 0 auto;border:0;background:none;color:var(--mu);font:inherit;font-size:15px;font-weight:500;padding:10px 12px;cursor:pointer;border-bottom:2px solid transparent}
-nav button[aria-selected=true]{color:var(--ink);font-weight:700;border-color:var(--ink)}
-button:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
-.hero{display:grid;gap:14px;padding:24px 0 8px}
-.ph{background:var(--tile);border-radius:6px;aspect-ratio:16/10;display:flex;align-items:flex-end;padding:12px;color:var(--mu);font-size:12px}
-.hero h1{font-size:28px;line-height:1.25;font-weight:900;letter-spacing:-.03em;margin:0}
-.hero p{margin:8px 0 0;color:var(--mu);font-size:15px}
-.k{font-size:12px;color:var(--mu);margin-top:8px}
-h2{font-size:20px;font-weight:900;letter-spacing:-.02em;margin:36px 0 14px}
-.list{display:grid;gap:0}
-.it{display:grid;grid-template-columns:1fr 96px;gap:14px;padding:16px 0;border-bottom:1px solid var(--ln);cursor:pointer}
-.it h3{margin:0;font-size:16px;line-height:1.4;font-weight:700}
-.it .th{background:var(--tile);border-radius:6px;aspect-ratio:1/1}
-.it:hover h3{text-decoration:underline}
-.empty{color:var(--mu);padding:24px 0;font-size:14px}
-.sf{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory;scrollbar-width:none}
-.sf::-webkit-scrollbar{display:none}
-.v{flex:0 0 138px;scroll-snap-align:start}
-.v .t{position:relative;aspect-ratio:9/16;border-radius:10px;background:linear-gradient(160deg,var(--tile2),var(--tile))}
-.v .t::after{content:"";position:absolute;left:50%;top:50%;margin:-14px 0 0 -9px;border-left:20px solid var(--ink);border-top:14px solid transparent;border-bottom:14px solid transparent;opacity:.75}
-.v b{display:block;font-size:13px;line-height:1.35;margin-top:8px;font-weight:700}
-footer{margin-top:56px;border-top:1px solid var(--ln);padding:24px 0 40px;color:var(--mu);font-size:13px}
-footer b{color:var(--ink)}
-.note{background:var(--tile);border-radius:8px;padding:10px 12px;font-size:12.5px;color:var(--mu);margin-top:16px}
-@media(min-width:820px){
- .hero{grid-template-columns:1.5fr 1fr;align-items:end;gap:28px;padding-top:32px}
- .hero h1{font-size:36px}
- .list.g{grid-template-columns:1fr 1fr;column-gap:36px}
- .v{flex-basis:170px}
-}
-</style>
-</head>
-<body>
-<header>
- <div class="w">
-  <div class="bar"><a class="logo" href="#"><i>AP</i>After Play</a><a class="ig" href="https://www.instagram.com/after__play/">@after__play</a></div>
-  <nav role="tablist" id="nav"></nav>
- </div>
-</header>
-<main class="w">
- <section class="hero" id="hero"></section>
- <h2>숏폼</h2>
- <div class="sf" id="sf"></div>
- <h2 id="lt">최신 소식</h2>
- <div class="list g" id="list"></div>
- <div class="note">지금은 샘플 기사와 영상 자리만 채운 시안이에요. 실제 기사와 숏폼은 이 틀에 그대로 들어갑니다.</div>
-</main>
-<footer><div class="w"><b>애프터플레이</b> 지나간 장면 뒤에 남은 감각을 기록합니다.<br>제휴·협업 문의 afterplay.kr@gmail.com</div></footer>
-<script>
-const CATS=["전체","뉴스","음악","미술·전시","영화·공연","패션"];
-const A=[
- {c:"음악",t:"이번 주 가장 많이 들린 신곡, 어떤 장면에서 시작됐나",d:"샘플 기사 · 첫 문단 요약이 이 자리에 들어가요.",m:"1시간 전"},
- {c:"미술·전시",t:"주말에 가기 좋은 전시 다섯 곳을 골랐어요",m:"3시간 전"},
- {c:"영화·공연",t:"개봉 첫 주, 관객이 가장 많이 얘기한 한 장면",m:"5시간 전"},
- {c:"뉴스",t:"문화예술계 오늘의 한 줄 정리",m:"어제"},
- {c:"패션",t:"무대 위 옷차림이 거리로 번지는 방식",m:"어제"},
- {c:"음악",t:"연말 콘서트 예매일 한눈에 보기",m:"어제"},
- {c:"미술·전시",t:"야간 개장으로 달라진 미술관의 밤",m:"2일 전"},
- {c:"뉴스",t:"이번 주 놓치기 쉬운 문화 소식 모음",m:"2일 전"}];
-const V=["15초로 보는 이번 주 전시","컴백 무대 비하인드 한 컷","오늘의 영화 한 장면","에디터가 고른 신곡","미술관 야간 개장 현장","이번 주 문화 3줄 뉴스"];
-let cur="전체";
-const $=id=>document.getElementById(id);
-const esc=s=>s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
-function draw(){
- $("nav").innerHTML=CATS.map(c=>`<button role="tab" aria-selected="${c===cur}" data-c="${c}">${c}</button>`).join("");
- const f=cur==="전체"?A:A.filter(a=>a.c===cur);
- const h=f[0];
- $("hero").innerHTML=h?`<div class="ph">대표 이미지</div><div><div class="k">${esc(h.c)} · ${esc(h.m)}</div><h1>${esc(h.t)}</h1><p>${esc(h.d||"기사 요약이 이 자리에 들어가요.")}</p></div>`:`<div class="empty">아직 이 분류에 올라온 기사가 없어요.</div>`;
- const rest=f.slice(1);
- $("list").innerHTML=rest.length?rest.map(a=>`<div class="it"><div><h3>${esc(a.t)}</h3><div class="k">${esc(a.c)} · ${esc(a.m)}</div></div><div class="th" aria-hidden="true"></div></div>`).join(""):`<div class="empty">더 올라온 기사가 없어요.</div>`;
- $("lt").textContent=cur==="전체"?"최신 소식":cur;
-}
-$("nav").onclick=e=>{const c=e.target.dataset.c;if(c){cur=c;draw()}};
-$("sf").innerHTML=V.map(t=>`<div class="v"><div class="t" role="img" aria-label="숏폼 영상 자리"></div><b>${esc(t)}</b></div>`).join("");
-draw();
-</script>
-</body>
-</html>
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="w"><div class="bar"><a class="logo" href="index.html"><i>AP</i>After Play</a><a class="ig" href="https://www.instagram.com/after__play/">@after__play</a></div></div></header>
+<main class="w"><a class="hero" href="articles/mmca-new-director.html" style="display:block"><div class="k">미술·전시 · 2026-11-14</div><h1>국립현대미술관 새 관장에 기혜경 교수 임명…임기 3년</h1><p>문화체육관광부가 13일 신임 관장 임명을 발표했다.</p></a>
+<h2>최신 소식</h2><a class="it" href="articles/chiikawa-box-office.html"><div class="k">영화·공연 · 2026-11-14</div><h3>‘극장판 치이카와: 인어 섬의 비밀’, 5주 연속 주말 박스오피스 1위</h3><p>지난 주말(6~8일) 14만 9천여 명이 관람했다.</p></a><a class="it" href="articles/kimpil-journey-concert.html"><div class="k">음악 · 2026-11-14</div><h3>김필 단독 콘서트 ‘저니’, 14~15일 서울 블루스퀘어에서</h3><p>이틀간 열리는 ‘2026 김필 콘서트 저니(JOURNEY)’.</p></a></main>
+<footer><div class="w"><b>애프터플레이</b> 지나간 장면 뒤에 남은 감각을 기록합니다.<br>제휴·협업 문의 afterplay.kr@gmail.com</div></footer></body></html>
